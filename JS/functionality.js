@@ -175,13 +175,14 @@ let letter = "";
 
 
     if (letter.length === currentText.length) {
+
         count++;
         index = 0;
     }
 
     document.querySelector('.home__typing').textContent = letter;
 
-    setTimeout(type, 200);
+    setTimeout(type, 450);
 
 })();
 
